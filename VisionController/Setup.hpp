@@ -28,10 +28,9 @@ enum INPUTMODES { PATH = 1, LIST = 2 };
 enum IMAGEMODES { IMAGE = 1, VIDEO = 2, CAMERA = 3 };
 enum CHANNELFLAGS { RGB = -1, GRAYSCALE = 0, RGBNOALPHA = 1 };
 
-//welcome module
+//Prints welcome text and copyright info
 int welcome();
-
-//home module
+//Primary point of interaction. Interface with all other functions from here.s
 void home(int inputMethod);
 
 

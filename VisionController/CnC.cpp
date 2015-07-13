@@ -28,16 +28,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 int main(int argc, char* argv[]) {
-	
 	//Launch welcome dialogue, acquire setup variables, return fileName
 	int inputMethod = 0;
 
 	//0 = error
 	inputMethod =  welcome();
 
+	//Everything happens in home()
 	while (true) {
 		home(inputMethod);
 		break;
 	}
-
 }
